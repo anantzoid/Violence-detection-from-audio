@@ -19,11 +19,11 @@ Training Data
 8.	Use test_example_SAE_CV to run autoencoder and do cross validation on the data. 
 
 Test Data
-1.	Save the test files in .wav format in the testdata folder.
-2.	Go to test_createdata.m to perform MFCC on all the test files. The vectors are concatenated in test_data and dimension in test_dimensions.
-3.	Run test_cepstrum.m
-4.	Run test_clustering.m . It gives the feature vectors of each of the test audio files in the testfeatures folder. You need to create a subfolder in the testfeatures folder for each audio file.
-5.	Run test_learn.m . You can change the classifiers in this file to be performed on the data.
-6.	Run test_plottingresults.m . It gives a value to each 3 sec clip. Saved in testresults folder.
+1.  Save the test files in .wav format in the testdata folder.
+2.  Go to test_createdata.m to perform MFCC on all the test files. The vectors are concatenated in test_data and dimension in test_dimensions.
+3.  Run test_cepstrum.m
+4.  Run test_clustering.m . It gives the feature vectors of each of the test audio files in the testfeatures folder. You need to create a subfolder in the testfeatures folder for each audio file.
+5.  Run test_learn.m . You can change the classifiers in this file to be performed on the data.
+6.  Run test_plottingresults.m . It gives a value to each 3 sec clip. Saved in testresults folder.
 
 __________________________________________________________________________________
