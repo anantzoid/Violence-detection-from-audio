@@ -9,6 +9,7 @@ In the context of present day scenario, where multimedia data is proliferating a
 Running instructions 
 
 Training Data
+
 1.	Save the .wav files in to the ‘sounds’ folder.
 2.	Using the ‘test.m’ file, we perform MFCC function on all the .wav files. After the completion of this, we get the MFCC of all the audio files separately (13xn). All the vectors are concatenated in “data.mat” . Dimensions in “dimensions.mat”.
 3.	Go to ‘deltacepstrum.m’, it gives  ‘deltadata.mat’ in its ‘new_D’ variable.
@@ -19,6 +20,7 @@ Training Data
 8.	Use test_example_SAE_CV to run autoencoder and do cross validation on the data. 
 
 Test Data
+
 1.  Save the test files in .wav format in the testdata folder.
 2.  Go to test_createdata.m to perform MFCC on all the test files. The vectors are concatenated in test_data and dimension in test_dimensions.
 3.  Run test_cepstrum.m
